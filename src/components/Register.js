@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form, Button, Card } from "react-bootstrap";
 import { register } from "../services/api";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate, Link } from "react-router-dom";
 import Header from "./partials/Header";
@@ -47,7 +47,6 @@ const Register = () => {
     <div>
       <Header />
       <div className="container">
-        <ToastContainer />
         <div className="row justify-content-center mt-4">
           <div className="col-lg-6">
             <Card>
